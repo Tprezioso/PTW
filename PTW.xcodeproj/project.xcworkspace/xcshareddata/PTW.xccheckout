@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>55BF7810-E626-4D91-98A8-3C56CBBE2C70</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>PTW</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C74A58CCC1DB08EF7A830BE1DB78224178313B2D</key>
 		<string>github.com:Tprezioso/PTW.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PTW.xcodeproj/project.xcworkspace</string>
+	<string>PTW.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C74A58CCC1DB08EF7A830BE1DB78224178313B2D</key>

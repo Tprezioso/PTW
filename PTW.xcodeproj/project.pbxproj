@@ -16,6 +16,7 @@
 		9F0298681B519EB100E61097 /* PTWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0298671B519EB100E61097 /* PTWTests.m */; };
 		9F0298731B51B06200E61097 /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0298721B51B06200E61097 /* ServicesViewController.m */; };
 		9F0298751B51C1CB00E61097 /* Ourservices.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F0298741B51C1CB00E61097 /* Ourservices.jpg */; };
+		9F0C9A351B522E6E0008A0BA /* ptw_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F0C9A341B522E6E0008A0BA /* ptw_banner.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9F0298711B51B06200E61097 /* ServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicesViewController.h; sourceTree = "<group>"; };
 		9F0298721B51B06200E61097 /* ServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicesViewController.m; sourceTree = "<group>"; };
 		9F0298741B51C1CB00E61097 /* Ourservices.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ourservices.jpg; sourceTree = "<group>"; };
+		9F0C9A341B522E6E0008A0BA /* ptw_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ptw_banner.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +93,6 @@
 				9F67D4881B5226D9006F9D72 /* Controller */,
 				9F67D4891B52271C006F9D72 /* View */,
 				9F67D48A1B522735006F9D72 /* Images */,
-				9F02984B1B519EB100E61097 /* Supporting Files */,
 			);
 			path = PTW;
 			sourceTree = "<group>";
@@ -138,6 +139,7 @@
 			children = (
 				9F0298551B519EB100E61097 /* Main.storyboard */,
 				9F02985A1B519EB100E61097 /* LaunchScreen.xib */,
+				9F02984B1B519EB100E61097 /* Supporting Files */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -145,8 +147,9 @@
 		9F67D48A1B522735006F9D72 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				9F0298581B519EB100E61097 /* Images.xcassets */,
 				9F0298741B51C1CB00E61097 /* Ourservices.jpg */,
+				9F0C9A341B522E6E0008A0BA /* ptw_banner.jpg */,
+				9F0298581B519EB100E61097 /* Images.xcassets */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				9F0298751B51C1CB00E61097 /* Ourservices.jpg in Resources */,
 				9F0298571B519EB100E61097 /* Main.storyboard in Resources */,
 				9F02985C1B519EB100E61097 /* LaunchScreen.xib in Resources */,
+				9F0C9A351B522E6E0008A0BA /* ptw_banner.jpg in Resources */,
 				9F0298591B519EB100E61097 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
