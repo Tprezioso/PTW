@@ -88,14 +88,9 @@
 			children = (
 				9F02984F1B519EB100E61097 /* AppDelegate.h */,
 				9F0298501B519EB100E61097 /* AppDelegate.m */,
-				9F0298521B519EB100E61097 /* AboutViewController.h */,
-				9F0298531B519EB100E61097 /* AboutViewController.m */,
-				9F0298551B519EB100E61097 /* Main.storyboard */,
-				9F0298711B51B06200E61097 /* ServicesViewController.h */,
-				9F0298721B51B06200E61097 /* ServicesViewController.m */,
-				9F0298581B519EB100E61097 /* Images.xcassets */,
-				9F0298741B51C1CB00E61097 /* Ourservices.jpg */,
-				9F02985A1B519EB100E61097 /* LaunchScreen.xib */,
+				9F67D4881B5226D9006F9D72 /* Controller */,
+				9F67D4891B52271C006F9D72 /* View */,
+				9F67D48A1B522735006F9D72 /* Images */,
 				9F02984B1B519EB100E61097 /* Supporting Files */,
 			);
 			path = PTW;
@@ -125,6 +120,35 @@
 				9F0298661B519EB100E61097 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F67D4881B5226D9006F9D72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F0298521B519EB100E61097 /* AboutViewController.h */,
+				9F0298531B519EB100E61097 /* AboutViewController.m */,
+				9F0298711B51B06200E61097 /* ServicesViewController.h */,
+				9F0298721B51B06200E61097 /* ServicesViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9F67D4891B52271C006F9D72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F0298551B519EB100E61097 /* Main.storyboard */,
+				9F02985A1B519EB100E61097 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9F67D48A1B522735006F9D72 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9F0298581B519EB100E61097 /* Images.xcassets */,
+				9F0298741B51C1CB00E61097 /* Ourservices.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,6 +450,7 @@
 				9F02986D1B519EB100E61097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F02986E1B519EB100E61097 /* Build configuration list for PBXNativeTarget "PTWTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +459,7 @@
 				9F0298701B519EB100E61097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
